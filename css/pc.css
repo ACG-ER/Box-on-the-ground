@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.backgrand-img {
+    /* background-image: url(../images/背景图.png); */
+    width: 1920px;
+    height: 2876px;
+    margin: auto;
+    background-color: #2e4562;
+}
+
+.backgrand-img .Top-img {
+    width: 100%;
+    height: 724px;
+    padding-top: 20px;
+    background: url(../images/头.jpg) no-repeat;
+}
+
+.loge {
+    width: 325px;
+    height: 56px;
+    margin-left: 500px;
+    background-image: url(../images/logo.png);
+}
+
+.Central {
+    width: 1000px;
+    height: 1500px;
+    margin: auto;
+    margin-top: -31px
+}
+
+.ac-time {
+    width: 100%;
+    text-align: center;
+}
+
+.txt1 {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    font-family: "微软雅黑";
+    margin-bottom: 0;
+}
+
+.txt2 {
+    font-size: 14px;
+    color: white;
+    font-family: "微软雅黑";
+    margin-top: 5px;
+}
+
+.txt2 a {
+    color: white;
+}
+
+
+/* 飘带1 */
+
+.ribbon {
+    width: 100%;
+    height: 92px;
+    background: url(../images/道具精灵图.png) no-repeat 132px -559px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.props {
+    width: 105%;
+    height: 227px;
+    margin-top: 50px;
+    margin-left: -35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.props i {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    background: url(../images/道具精灵图.png) no-repeat -337px -73px;
+}
+
+
+/* .props image {
+    width: 100%;
+    height: 100%;
+} */
+
+.props-txt {
+    font-size: 14.01px;
+    color: #f7fafe;
+    font-style: normal;
+    line-height: 18.1px;
+    font-family: "微软雅黑";
+    margin-top: 190px;
+}
+
+
+/* 按钮 */
+
+.bnt {
+    width: 322px;
+    height: 89px;
+    margin-top: 113px;
+    margin-left: 325px;
+    text-align: center;
+    background: url(../images/道具精灵图.png) no-repeat -353px -323px;
+}
+
+.bnt p {
+    font-size: 26px;
+    line-height: 70px;
+    font-family: "微软雅黑";
+    font-style: italic;
+    color: #0b4f65;
+    margin-top: -94px;
+}
+
+.bnt p span {
+    font-weight: 700;
+}
+
+
+/* 飘带2 */
+
+.ribbon2 {
+    width: 100%;
+    height: 92px;
+    background: url(../images/道具精灵图.png) no-repeat 118px -425px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+/* 倒计时 */
+
+.countdown {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.countdown p {
+    font-size: 24px;
+    font-family: "微软雅黑";
+    font-style: italic;
+    color: #a4c3e4;
+    margin: 5px;
+}
+
+.countdown p span {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* 记录 */
+
+.record {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.record a {
+    color: #fff;
+}
+
+.record span {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #a4c3e4;
+    margin-top: 15px;
+}
+
+.Gold-box {
+    width: 100%;
+    padding: 27px 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Ag-box {
+    width: 181px;
+    margin-left: 71px;
+}
+
+.tip-box {
+    width: 320px;
+    height: 134px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #fdf1e1;
+    float: left;
+    margin-top: -335px;
+    margin-left: -69px;
+    background: url(../images/多边形\ 1.png);
+}
+
+.tip-box-txt {
+    margin-top: 15px;
+}
+
+.Ag-box2 {
+    width: 180px;
+    height: 230px;
+    background: url(../images/道具精灵图.png) no-repeat -556px -68px;
+}
+
+.Ag-box2 image {
+    width: 100%;
+    height: 100%;
+}
+
+.Gold {
+    text-align: center;
+    margin-top: -220px;
+}
+
+.Gold p {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #96c4f5;
+    margin: 0;
+    margin-top: -15px;
+}
+
+.Q-money {
+    margin-top: 45px;
+}
+
+.Q-money .Q1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fffffe;
+    margin: 0;
+    text-decoration: line-through;
+}
+
+.Q-money .Q2 {
+    color: #ffdf7d;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn p {
+    margin-top: -46px;
+    font-size: 21.99px;
+    font-weight: 700;
+    font-family: "微软雅黑";
+    color: #3e3e3e;
+    font-style: italic;
+}
+
+.btn-W {
+    width: 155.99px;
+    height: 57.31px;
+    margin-left: 12px;
+    background: url(../images/道具精灵图.png) no-repeat -357px -2px;
+}
+
+.btn-Y {
+    width: 155.99px;
+    height: 57.31px;
+    margin-left: 12px;
+    background: url(../images/道具精灵图.png) no-repeat -537px -1px;
+}
+
+.rules {
+    width: 953px;
+    height: 600px;
+    margin-top: 184px;
+    margin-left: 35px;
+}
+
+.rules .huanguan {
+    height: 22px;
+    width: 24px;
+    line-height: 3.5;
+}
+
+.rules i {
+    height: 23px;
+    display: flex;
+    color: #522219;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Bottom-img {
+    width: 100%;
+    height: 388px;
+    margin-top: 258px;
+    padding-top: 50px;
+    background: url(../images/背景&头图.jpg) no-repeat;
+}
+
+.ribbon3 {
+    width: 490px;
+    height: 70px;
+    margin: auto;
+    background: url(../images/飘带3.png) no-repeat;
+}
